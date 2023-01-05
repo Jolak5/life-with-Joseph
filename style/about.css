@@ -41,7 +41,9 @@ header p {
 }
 
 .logo-details div img {
-  width: 30%;
+  width: 25%;
+  border: 3px solid #d3d3d3;
+  margin-top: 3%;
 }
 
 /* The card styling */
@@ -50,9 +52,16 @@ header p {
   text-align: center;
   padding: 10%;
 }
+
+.recent-podcast h3 {
+  font-size: 2.5rem;
+  color: #272a31;
+  margin-bottom: 1%;
+}
 .card-container {
   display: flex;
   flex-direction: column;
+  margin-top: 5%;
 }
 
 .card {
@@ -64,7 +73,6 @@ header p {
 }
 
 .card img {
-  position: relative;
   width: 100%;
   height: 100%;
   z-index: 0;
@@ -73,8 +81,9 @@ header p {
 .overlay {
   position: absolute;
   top: 0;
+  left: 0;
   width: 100%;
-  height: 100%;
+  height: 89%;
   background-color: rgba(236, 82, 66, 0.7);
   z-index: 1;
 }
@@ -125,7 +134,7 @@ header p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10%;
+  padding: 10% 10%;
 }
 
 footer img {
@@ -134,20 +143,58 @@ footer img {
 }
 
 @media screen and (min-width: 768px) {
-  .hero-section {
-    padding: 0 15% 5%;
+  header {
+    padding: 0;
   }
+  .hero-section {
+    padding: 0 20% 10%;
+  }
+
   header h2 {
-    margin-top: 6%;
+    display: none;
+  }
+
+  .hero-section h1 {
+    margin: 10% 10% 2%;
+  }
+
+  header h4 {
+    margin-top: 5%;
+    color: white;
+    background-color: #272a3155;
+  }
+
+  .p-header {
+    color: #d3d3d3;
   }
 
   .recent-podcast {
-    padding-top: 5%;
+    padding: 5% 0;
+    gap: 5%;
   }
   .card-container {
     flex-direction: row;
     gap: 3%;
+    margin: 5% 20% 0;
     align-items: center;
     justify-content: center;
+  }
+
+  .partners-container {
+    display: none;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+    background-color: #272a31;
+    color: #d3d3d3;
+  }
+
+  footer img {
+    width: 20%;
+    height: 30%;
   }
 }

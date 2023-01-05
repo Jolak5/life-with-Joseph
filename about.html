@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About us</title>
-    <link rel="stylesheet" href="style/about.css" />
     <link rel="stylesheet" href="style/global.css" />
+    <link rel="stylesheet" href="style/about.css" />
+
     <script
       src="https://kit.fontawesome.com/fc90b67c69.js"
       crossorigin="anonymous"
@@ -20,10 +21,14 @@
   </head>
   <body>
     <header>
-      <nav class="navbar">
+      <nav class="mobile">
+        <img src="" alt="" class="company-logo" />
         <ul class="nav-menu">
-          <li class="nav-item"><a href="#section-1">Portfolio</a></li>
-          <li class="nav-item"><a href="#section-2">About</a></li>
+          <li class="nav-item"><a href="home.html">Home</a></li>
+          <li class="nav-item"><a href="about.html">About Us</a></li>
+          <li class="nav-item"><a href="">Courses</a></li>
+          <li class="nav-item"><a href="">Contact us</a></li>
+          <li class="nav-item"><a href="">Youtube</a></li>
         </ul>
 
         <div class="hamburger">
@@ -32,9 +37,22 @@
           <span class="bar"></span>
         </div>
       </nav>
+
+      <nav class="desktop">
+        <img src="images/logo.png" alt="logo" class="company-logo" />
+        <ul class="nav-desktop">
+          <li class="nav-item"><a href="home.html">Home</a></li>
+          <li class="nav-item"><a href="about.html">About Us</a></li>
+          <li class="nav-item"><a href="">Courses</a></li>
+          <li class="nav-item"><a href="">Contact us</a></li>
+          <li class="nav-item"><a href="">Youtube</a></li>
+        </ul>
+        <button class="nav-button">Contact ME</button>
+      </nav>
       <div class="hero-section">
         <h2>"Hello! Let's Learn"</h2>
         <h1>CREATIVE COMMONS GLOBAL SUMMIT 2015</h1>
+        <hr />
         <div>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -43,11 +61,11 @@
           </p>
         </div>
         <h4>JOIN ME LIVE (WED) ~ 6PM</h4>
-        <p>Sportify Handle: @life with Joseph</p>
+        <p class="p-header">Sportify Handle: @life with Joseph</p>
       </div>
     </header>
     <section class="logo-details">
-      <h2>Creative Commons <br />Global Summit 2015 Logo</h2>
+      <h2>Creative Commons Global Summit 2015 Logo</h2>
       <hr />
       <p>
         This podcast is meant to educate you on different aspect of creativity
@@ -56,6 +74,7 @@
     </section>
     <section class="recent-podcast">
       <h3>See the recent podcast</h3>
+      <hr />
       <p>
         We have created several podcasts for your listening pleasure. Check it
         out
