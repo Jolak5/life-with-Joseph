@@ -14,12 +14,12 @@ header h2 {
 }
 header h1 {
   color: #ec5242;
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 900;
 }
 
 header > div > div > p {
-  padding: 40px 20px;
+  padding: 20px 20px;
   border-color: #272a31;
   margin: 30px 0;
   background-color: white;
@@ -162,6 +162,11 @@ footer img {
     margin-top: 5%;
     color: white;
     background-color: #272a3155;
+  }
+
+  .hero-section > div > p {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 
   .p-header {

@@ -64,8 +64,8 @@ header h4 {
 }
 
 .program p {
-  line-height: 2rem;
-  font-size: 1.3rem;
+  line-height: 1.7rem;
+  font-size: 1rem;
 }
 
 .program-btn {
@@ -107,29 +107,29 @@ header h4 {
 .bg-2 {
   position: relative;
   z-index: 2;
-  top: 20px;
+  top: 10px;
   left: 10px;
-  width: 60%;
+  width: 70%;
 }
 
 .speaker-details h4 {
-  font-size: 1.7rem;
+  font-size: 1rem;
   font-weight: 900;
 }
 
 .speaker-details h5 {
   font-style: italic;
   color: #ec5242;
-  font-size: 1.3rem;
-  line-height: 2rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
   font-weight: 900;
   margin: 2% 0;
 }
 
 .speaker-details p {
   font-weight: 700;
-  font-size: 1.1rem;
-  line-height: 2rem;
+  font-size: 1rem;
+  line-height: 1.3rem;
 }
 .speaker-details hr {
   text-align: start;
@@ -150,21 +150,24 @@ header h4 {
 @media screen and (min-width: 768px) {
   .hero-section {
     padding-bottom: 10%;
-    padding: 5%;
+    padding: 1% 8%;
   }
   header h2 {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     margin-bottom: 1.2rem;
   }
   header h1 {
-    font-size: 5rem;
-    margin-right: 20%;
+    font-size: 4rem;
+    margin-right: 30%;
+    line-height: 4rem;
   }
 
   header > div > div > p {
     background-color: rgba(211, 211, 211, 0.9);
     margin-right: 50%;
     color: black;
+    line-height: 2rem;
+    margin-bottom: 20px;
   }
 
   .program-container {
@@ -182,8 +185,8 @@ header h4 {
 
   .speaker-section1 {
     display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
     margin: 0 10%;
   }
 

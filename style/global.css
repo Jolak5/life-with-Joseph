@@ -9,6 +9,7 @@ body.active {
 
 body,
 p,
+a,
 h1,
 h2,
 h3,
@@ -179,7 +180,7 @@ footer img {
     color: black;
     background-color: white;
     align-content: center;
-    padding: 1% 10%;
+    padding: 0 10%;
   }
 
   .nav-desktop {
@@ -190,12 +191,13 @@ footer img {
 
   .nav-item {
     padding: 0 10px;
+    font-size: 1rem;
   }
 
   .nav-button {
     border: #ec5242 4px solid;
-    padding: 2px 50px;
-    margin-left: 2%;
+    padding: 1px 50px;
+    margin: 1% 1%;
   }
 
   .mobile {
