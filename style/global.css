@@ -22,9 +22,9 @@ article {
 }
 
 header {
-  background: url("/images/mobile-header.jpg");
+  background: url("/images/mobile-header.png");
   background-size: cover;
-  padding: 30px;
+   padding: 30px;
 }
 
 .desktop {
@@ -168,7 +168,7 @@ hr {
 
 @media screen and (min-width: 768px) {
   header {
-    background: url("/images/desktop-header.jpg");
+    background: url("/images/desktop-header.png");
     background-size: cover;
     background-repeat: no-repeat;
         padding: 0;
@@ -240,8 +240,8 @@ hr {
 
   .nav-button {
     border: #ec5242 4px solid;
-    padding: 20px 0;
-    width: 12%;
+    padding: 10px 0;
+    width: 20%;
    color: #ec5242;
    font-weight: 900;
    font-size: 1rem;
