@@ -7,7 +7,6 @@ hamburger.addEventListener('click', () => {
   hamburger.classList.toggle('active');
   navMenu.classList.toggle('active');
   body.classList.toggle('active');
-  
 });
 
 for (let i = 0; i < navItem.length; i++) {
