@@ -4,6 +4,7 @@ header h2 {
   font-weight: 500;
   font-size: 2.2rem;
 }
+
 header h1 {
   color: #ec5242;
   font-size: 4rem;
@@ -31,7 +32,7 @@ header h4 {
   justify-content: center;
   align-items: center;
   color: white;
-  background-image: url("/images/mobile-background.jpg");
+  background-image: url('/images/mobile-background.jpg');
   padding: 10% 0;
 }
 
@@ -85,6 +86,7 @@ header h4 {
   text-align: center;
   margin-bottom: 2%;
 }
+
 .speakers {
   display: grid;
   grid-template-columns: 30% 60%;
@@ -131,6 +133,7 @@ header h4 {
   font-size: 1rem;
   line-height: 1.3rem;
 }
+
 .speaker-details hr {
   text-align: start;
 }
@@ -149,13 +152,14 @@ header h4 {
 
 @media screen and (min-width: 768px) {
   .hero-section {
-    padding-bottom: 10%;
-    padding: 1% 8%;
+    padding: 1% 8% 18% 8%;
   }
+
   header h2 {
     font-size: 1.8rem;
     margin-bottom: 1.2rem;
   }
+
   header h1 {
     font-size: 4rem;
     margin-right: 30%;
@@ -175,6 +179,7 @@ header h4 {
     gap: 5px;
     margin: 0 10%;
   }
+
   .program {
     flex-direction: column;
     align-items: center;

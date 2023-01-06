@@ -12,10 +12,16 @@ header h2 {
   color: #ec5242;
   margin: 10% 0 3%;
 }
+
 header h1 {
   color: #ec5242;
   font-size: 3rem;
   font-weight: 900;
+}
+
+header p {
+  text-align: center;
+  font-size: 1.5rem;
 }
 
 header > div > div > p {
@@ -30,17 +36,12 @@ header h4 {
   font-size: 2.5rem;
 }
 
-header p {
-  text-align: center;
-  font-size: 1.5rem;
-}
-
 .logo-details {
   text-align: center;
   margin-top: 5%;
 }
 
-.logo-details div img {
+.logo-details-img {
   width: 25%;
   border: 3px solid #d3d3d3;
   margin-top: 3%;
@@ -58,6 +59,7 @@ header p {
   color: #272a31;
   margin-bottom: 1%;
 }
+
 .card-container {
   display: flex;
   flex-direction: column;
@@ -137,7 +139,7 @@ header p {
   padding: 10% 10%;
 }
 
-footer img {
+.footer-logo {
   width: 50%;
   height: 30%;
 }
@@ -146,6 +148,7 @@ footer img {
   header {
     padding: 0;
   }
+
   .hero-section {
     padding: 0 20% 10%;
   }
@@ -177,6 +180,7 @@ footer img {
     padding: 5% 0;
     gap: 5%;
   }
+
   .card-container {
     flex-direction: row;
     gap: 3%;
@@ -198,8 +202,8 @@ footer img {
     color: #d3d3d3;
   }
 
-  footer img {
-    width: 20%;
+  .footer-logo {
+    width: 10%;
     height: 30%;
   }
 }
