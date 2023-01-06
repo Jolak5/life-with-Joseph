@@ -2,26 +2,10 @@
 
 <a name="readme-top"></a>
 
-<!--
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
--->
 
 <div align="center">
 
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="images/logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>Hello_Microverse</b></h3>
@@ -83,63 +67,26 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 In order to run this project you need: https://github.com/Jolak5/life-with-Joseph
-
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+- IDE (FOR EXAMPLE: VSCODE, ...)
+- TERMINAL 
+- GIT 
 
 ### Setup
 
-Clone this repository to your desired folder: https://github.com/Jolak5/life-with-Joseph
+Clone this repository to your desired folder: 
 
-<!--
 Example commands:
 
 ```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
+  git clone https://github.com/Jolak5/life-with-Joseph.git
+  cd life-with-Joseph
+ ```
+
 
 ### Usage
 
 To contribute to this project, execute the following command: git push https://github.com/Jolak5/life-with-Joseph
 
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
-
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -156,6 +103,18 @@ Example:
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/olatunji-kayode/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> Describe 1 - 3 features you will add to the project.
+
+- [ ] **[Background image for the header]**
+- [ ] **[Contact page]**
+- [ ] **[Animations]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
