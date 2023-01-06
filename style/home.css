@@ -32,7 +32,7 @@ header h4 {
   justify-content: center;
   align-items: center;
   color: white;
-  background-image: url("../images/mobile-background.jpg");
+  background-image: url('../images/mobile-background.jpg');
   padding: 10% 0;
 }
 
@@ -144,15 +144,15 @@ header h4 {
 }
 
 .more-btn button {
-  border: #272a31 1px solid;
-  width: 70%;
-  font-size: 2rem;
+  border: #272a31 0.5px solid;
+  width: 80%;
+  font-size: 1.5rem;
   padding: 20px 0;
 }
 
 @media screen and (min-width: 768px) {
   .hero-section {
-    padding: 1% 8% 18% 8%;
+    padding: 1% 8% 3% 8%;
   }
 
   header h2 {
@@ -161,11 +161,11 @@ header h4 {
   }
 
   header h1 {
-    font-size: 6rem;
+    font-size: 5rem;
     margin-right: 30%;
-    line-height: 6rem;
+    line-height: 5rem;
     font-weight: 900;
-    text-transform:uppercase;
+    text-transform: uppercase;
   }
 
   header > div > div > p {

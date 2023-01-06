@@ -164,13 +164,13 @@ header h4 {
     font-size: 4rem;
     line-height: 4rem;
     font-weight: 900;
-    text-transform:uppercase;
+    text-transform: uppercase;
   }
 
   header h4 {
     margin-top: 5%;
     color: white;
-      }
+  }
 
   .hero-section > div > p {
     font-size: 1rem;
