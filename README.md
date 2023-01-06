@@ -54,7 +54,7 @@ Javascript
 
 >
 
-- [Live Demo Link](https://jolak5.github.io/Portfolio/)
+- [Live Demo Link](https://jolak5.github.io/life-with-Joseph/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
