@@ -54,12 +54,13 @@ REQUIRED SECTIONS:
 
 # 📖 [Hello_Microverse] <a name="about-project"></a>
 
-This project is for my portfolio. The website containssome of the websites I have built over the years. I am delighted to share this with you
+This project is for my podcast website. It contains information about the topics I talk about and has sections about other speakers
 
 ## 🛠 Built With <a name="built-with"></a>
 
 HTML
 CSS
+Javascript
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -81,7 +82,7 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need: https://github.com/Jolak5/Hello_Microverse.git
+In order to run this project you need: https://github.com/Jolak5/life-with-Joseph
 
 <!--
 Example command:
@@ -93,7 +94,7 @@ Example command:
 
 ### Setup
 
-Clone this repository to your desired folder: https://github.com/Jolak5/Hello_Microverse.git
+Clone this repository to your desired folder: https://github.com/Jolak5/life-with-Joseph
 
 <!--
 Example commands:
@@ -106,7 +107,7 @@ Example commands:
 
 ### Usage
 
-To contribute to this project, execute the following command: git push https://github.com/Jolak5/Hello_Microverse.git
+To contribute to this project, execute the following command: git push https://github.com/Jolak5/life-with-Joseph
 
 <!--
 Example command:
@@ -170,7 +171,7 @@ If you like this project, please add it to your repository and visit it at any p
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank my teammate, leslie for the videos she sent that really helped me complete this project in time...
+Thanks to Cindy Shin for the design (https://www.behance.net/adagio07)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
