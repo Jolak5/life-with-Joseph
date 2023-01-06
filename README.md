@@ -8,7 +8,7 @@
   <img src="images/logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Hello_Microverse</b></h3>
+  <h3><b>Life with Joseph</b></h3>
 
 </div>
 
@@ -36,7 +36,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Hello_Microverse] <a name="about-project"></a>
+# 📖 [Life-with-Joseph] <a name="about-project"></a>
 
 This project is for my podcast website. It contains information about the topics I talk about and has sections about other speakers
 
