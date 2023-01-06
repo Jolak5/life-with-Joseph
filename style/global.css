@@ -22,7 +22,7 @@ article {
 }
 
 header {
-  background-image: url('images/mobile-header.jpg');
+  background-image: url("images/mobile-header.jpg");
   background-size: cover;
   padding: 30px;
 }
@@ -161,7 +161,7 @@ hr {
 
 @media screen and (min-width: 768px) {
   .header {
-    background-image: url('images/desktop-header.jpg');
+    background-image: url("images/desktop-header.jpg");
     background-size: cover;
     background-repeat: no-repeat;
   }
