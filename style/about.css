@@ -11,27 +11,32 @@ header .hero-section {
 header h2 {
   color: #ec5242;
   margin: 10% 0 3%;
+  font-size: 2.5rem;
 }
+
 header h1 {
   color: #ec5242;
-  font-size: 4rem;
+  font-size: 4.5rem;
   font-weight: 900;
-}
-
-header > div > div > p {
-  padding: 40px 20px;
-  border-color: #272a31;
-  margin: 30px 0;
-  background-color: white;
-}
-
-header h4 {
-  color: #272a31;
-  font-size: 2.5rem;
 }
 
 header p {
   text-align: center;
+  font-size: 1rem;
+}
+
+header > div > div > p {
+  padding: 20px 20px;
+  border-color: #272a31;
+  margin: 5% 10%;
+  font-size: 1.5rem;
+  font-weight: 700;
+  background-color: white;
+  border: 1px #d3d3d3 solid;
+}
+
+header h4 {
+  color: #272a31;
   font-size: 1.5rem;
 }
 
@@ -40,8 +45,8 @@ header p {
   margin-top: 5%;
 }
 
-.logo-details div img {
-  width: 25%;
+.logo-details-img {
+  width: 40%;
   border: 3px solid #d3d3d3;
   margin-top: 3%;
 }
@@ -58,6 +63,7 @@ header p {
   color: #272a31;
   margin-bottom: 1%;
 }
+
 .card-container {
   display: flex;
   flex-direction: column;
@@ -137,7 +143,7 @@ header p {
   padding: 10% 10%;
 }
 
-footer img {
+.footer-logo {
   width: 50%;
   height: 30%;
 }
@@ -146,32 +152,70 @@ footer img {
   header {
     padding: 0;
   }
+
   .hero-section {
     padding: 0 20% 10%;
+  }
+
+  header h1 {
+    font-size: 6rem;
+    font-weight: 900;
+  }
+
+  .hero-section h1 {
+    margin: 10% 10% 2%;
+    font-size: 4rem;
+    line-height: 4rem;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+
+  header h4 {
+    margin-top: 5%;
+    color: #272a31;
+    font-size: 1rem;
+  }
+
+  header > div > div > p {
+    margin: 0 20%;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  .logo-details p,
+  .recent-podcast p {
+    font-size: 1rem;
+  }
+
+  .hero-section > div > p {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 
   header h2 {
     display: none;
   }
 
-  .hero-section h1 {
-    margin: 10% 10% 2%;
-  }
-
-  header h4 {
-    margin-top: 5%;
-    color: white;
-    background-color: #272a3155;
-  }
-
   .p-header {
-    color: #d3d3d3;
+    color: #272a31;
+    text-decoration: underline;
   }
 
   .recent-podcast {
     padding: 5% 0;
     gap: 5%;
   }
+
+  .logo-details h2,
+  .recent-podcast h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  .logo-details-img {
+    width: 18%;
+  }
+
   .card-container {
     flex-direction: row;
     gap: 3%;
@@ -193,8 +237,8 @@ footer img {
     color: #d3d3d3;
   }
 
-  footer img {
-    width: 20%;
+  .footer-logo {
+    width: 10%;
     height: 30%;
   }
 }
