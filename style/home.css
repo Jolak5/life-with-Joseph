@@ -42,6 +42,7 @@ header h4 {
   align-items: center;
   justify-content: center;
   padding: 50px 20px;
+  margin: 0 10%;
 }
 
 .program {
@@ -60,7 +61,7 @@ header h4 {
 
 .program h3 {
   color: #ec5242;
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin: 0 30px;
 }
 
@@ -135,7 +136,10 @@ header h4 {
 }
 
 .speaker-details hr {
+  justify-content: start;
   text-align: start;
+  height: 1px;
+  margin: 0;
 }
 
 .more-btn {
@@ -148,6 +152,10 @@ header h4 {
   width: 80%;
   font-size: 1.5rem;
   padding: 20px 0;
+}
+
+.font-Awesome {
+  color: #ec5242;
 }
 
 @media screen and (min-width: 768px) {
@@ -183,15 +191,24 @@ header h4 {
   .program-container {
     flex-direction: row;
     gap: 5px;
-    margin: 0 10%;
+    margin: 0 100px;
   }
 
   .program {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    gap: 10px;
     padding: 40px 0;
+  }
+
+  .program-btn {
+    background-color: transparent;
+    padding: 0 0;
+    font-size: 2rem;
+    border: none;
+    text-decoration: underline;
+    text-align: center;
+    color: white;
   }
 
   .speaker-section1 {
